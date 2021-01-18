@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<items xmlns:myns = "http://www.itmo.ru/xml/lessons">
+
+
+<myns:item>
+
+<myns:name>Технологии программирования</myns:name>
+<myns:teacherFirstName>Антон</myns:teacherFirstName>
+<myns:teacherLastName>Смольянинов</myns:teacherLastName>
+<myns:hours>40</myns:hours>
+<myns:classTime>18:30-21:50</myns:classTime>
+
+</myns:item>
+
+<myns:item>
+
+<myns:name>Базы данных в MS SQL Server</myns:name>
+<myns:teacherFirstName>Денис</myns:teacherFirstName>
+<myns:teacherLastName>Ямщиков</myns:teacherLastName>
+<myns:hours>60</myns:hours>
+<myns:classTime>18:30-21:50</myns:classTime>
+
+</myns:item>
+
+<myns:item>
+
+<myns:name>Программирование на CSharp</myns:name>
+<myns:teacherFirstName>Антон</myns:teacherFirstName>
+<myns:teacherLastName>Смольянинов</myns:teacherLastName>
+<myns:hours>70</myns:hours>
+<myns:classTime>18:30-21:50</myns:classTime>
+
+</myns:item>
+
+</items>
