@@ -1,0 +1,73 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE library [<!ELEMENT library (book_catalog, author_catalog)> 
+
+<!ELEMENT book_catalog (book*)> 
+
+<!ELEMENT book (authors?, title, publishing, annotation?)> 
+
+<!ELEMENT authors (author+)> 
+
+<!ELEMENT author (#PCDATA)> 
+
+<!ELEMENT title (#PCDATA)> 
+
+<!ELEMENT publishing (#PCDATA)> 
+
+<!ELEMENT annotation (#PCDATA)> 
+
+ 
+
+<!ELEMENT author_catalog (author_book*)> 
+
+<!ELEMENT author_book (#PCDATA)> 
+
+ 
+
+<!ATTLIST book  
+
+id ID #REQUIRED 
+
+isbn CDATA #IMPLIED 
+
+year CDATA #REQUIRED  
+
+issue (translation | original) "translation">   
+
+ 
+
+<!ATTLIST author_book  idref IDREF #REQUIRED> 
+
+ 
+
+<!ENTITY linux "Linux"> 
+
+<!ENTITY internet "Internet">]>
+
+<library>
+
+<book_catalog>
+
+<book id="35" year="1975" issue="original">
+
+<authors>
+
+<author>Лев Толстой</author>
+
+</authors>
+
+<title>Война и мир</title>
+<publishing>&linux;&internet;</publishing>
+<annotation>Примечание</annotation>
+
+</book>
+
+
+</book_catalog>
+
+<author_catalog>
+<author_book idref="35">Авторская книга</author_book>
+
+</author_catalog>
+
+
+</library>

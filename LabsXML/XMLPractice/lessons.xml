@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE items SYSTEM "lessons_DTD.dtd">
+<items>
+
+<item>
+
+<name>Технологии программирования</name>
+<teacherFirstName>Антон</teacherFirstName>
+<teacherLastName>Смольянинов</teacherLastName>
+<hours>40</hours>
+<classTime>18:30-21:50</classTime>
+
+</item>
+
+<item>
+
+<name>Базы данных в MS SQL Server</name>
+<teacherFirstName>Денис</teacherFirstName>
+<teacherLastName>Ямщиков</teacherLastName>
+<hours>60</hours>
+<classTime>18:30-21:50</classTime>
+
+</item>
+
+<item>
+
+<name>Программирование на CSharp</name>
+<teacherFirstName>Антон</teacherFirstName>
+<teacherLastName>Смольянинов</teacherLastName>
+<hours>70</hours>
+<classTime>18:30-21:50</classTime>
+
+</item>
+
+</items>

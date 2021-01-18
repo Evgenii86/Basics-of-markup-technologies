@@ -1,0 +1,13 @@
+<!ELEMENT items (item+)> 
+
+<!ELEMENT item (name, teacherFirstName, teacherLastName, hours, classTime)>  
+
+<!ELEMENT name (#PCDATA)>  
+
+<!ELEMENT teacherFirstName (#PCDATA)>  
+
+<!ELEMENT teacherLastName (#PCDATA)>  
+
+<!ELEMENT hours (#PCDATA)>  
+
+<!ELEMENT classTime (#PCDATA)> 
